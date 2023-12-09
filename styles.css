@@ -9,3 +9,21 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+.bg-image {
+  aspect-ratio: 960/540;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image {
+  background-image: url(assets/stacked-waves-haikei.svg);
+}
+
+.developer {
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  border-bottom: 3px solid;
+}
